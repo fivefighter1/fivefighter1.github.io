@@ -1,0 +1,191 @@
+
+ul{
+    list-style: none;}
+ul ul{
+    display:none;
+    margin-top: 25px;
+    color: #000;
+}
+h3 {font-size: 20px;}
+.slidez2 {
+    font-weight: normal;
+}
+.slidez2 a {
+    display: block;
+    background: #aaa;
+    color: #fff;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    transition: all .2s ease;
+}
+.slidez2 a:hover {
+    background: #0766ba;
+    transition: all .2s ease;
+}
+body {
+    background: #ececec;
+    font-family: "Segoe UI",Arial, sans-serif;
+}
+h3 {line-height: 12px; margin-bottom: 9px;}
+.sbreak {
+    padding-bottom: 17px;
+    border-bottom: 1px solid #ccc;
+    width: 97%;
+}
+h5 {line-height: 9px; color: black;}
+
+.containerz {
+    width: 100%;
+    padding: 1px;
+    max-height: 1000px;
+    min-width: 975px;
+    font-size: 17px;    }
+.containerz a {
+    text-decoration: none;
+}
+.trow {
+    width: 100%;
+    height: 100%;
+}
+.bb-tab-container{
+    width: 96%;
+    height: 100%;
+    float:left;
+    margin: 10px;
+    /*padding: 1%;
+    z-index: 10;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
+}
+.bb-tab-menu{
+    position: relative;
+    top: 59px;
+}
+.list-group{
+    margin-bottom: 0;
+    width: 20%;
+    min-width: 206px;
+    float: left;
+    background: blue;
+}
+.tablink {
+    display:block;
+    float:right;
+    width: 100%;
+    background: #ececec;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+    vertical-align: middle;
+    height: 50px;
+    font-size: 13px;
+    padding-left:10px;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #999999;
+    transition: all .2s ease;
+    max-width: 100%;
+}
+.tablink.active {
+    margin-left: 3px;
+    color: #1e4974;
+    transition: all .2s ease;
+    max-width: 94%;
+    background: #fff;
+}
+.tablink:hover {
+    color: #1e4974;
+    transition: all .2s;
+}
+.tablink div {float:left; margin-right: 15px;}
+.tablink div img {height:50px;
+    background: #ccc;
+    transition: all .2s;
+}
+.tablink.active div img, .tablink:hover div img {
+    background: #393939;
+    transition: all .2s;
+}
+.bb-tab-content{
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    min-height:400px;
+}
+.bb-tab-item{
+    display:block;
+    text-align: left;
+    width:96%;
+    background:#fff;
+    float:left;
+    padding-left:10px;
+    border: 1px solid #E6E6E6;
+    border-left:3px solid green;
+    margin-bottom: 20px;
+    max-width: 96%;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+.bb-tab-item:hover{
+    box-shadow: 2px 2px 3px 2px #d7d7d7;
+    border: none;
+    border-left:8px solid green;
+    transition: all .2s ease-all;
+    padding-left:5px;
+    width: 96%;
+}
+.bb-tab-item h5 {
+    text-indent: 30px
+}
+.bb-tab-item div {
+    float: left;
+}
+.bb-tab-item img { height: 65px; padding-top: 8px; padding-right: 10px;}
+.bb-tab-title{
+    margin: 20px 22px 37px 22px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    text-indent: 25px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    color:#4e4e4e;
+}
+div.bb-tab-content:not(.active){
+    display: none;
+}
+div.bb-tab {
+    width: 70%;
+    min-width: 719px;
+    float:left;
+    background: #fff;
+}
+.ribtag{
+    float:left;
+    text-align: center;
+    background-color: #606060;
+    border: 1px solid #555555;
+    box-shadow: 0 0 1px #BABABA inset;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 23px;
+    padding: 0px 18px 0px 11px;
+    position: relative;
+    width: auto;
+    margin-bottom: 25px;
+}
+.endcap {
+    background: url("https://worldwidetech-stg.csod.com/images/sprite1.png") no-repeat scroll 0 -984px transparent;
+    height: 50px;
+    position: absolute;
+    right: -13px;
+    top: -2px;
+    width: 22px;
+}
